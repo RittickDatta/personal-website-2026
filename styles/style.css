@@ -17,6 +17,7 @@
   /* FONT SIZES */
   --large: 3.5rem;
   --heading: 3rem;
+  --mobile-heading: 32px;
   --heading-tablet: 2rem;
   --sub-heading: 2rem;
   --title: 1.5rem;
@@ -959,7 +960,7 @@ aside {
   }
 
   main .top-fold-text {
-    font-size: var(--heading-tablet);
+    font-size: var(--mobile-heading);
     font-weight: bold;
     width: 100%;
     color: var(--background-color);
@@ -983,14 +984,6 @@ aside {
 
   .footer-nav {
     visibility: hidden;
-  }
-
-  footer {
-    bottom: 80px;
-    .contact {
-      flex-direction: column;
-      height: 48px;
-    }
   }
 
   /* TOP ACTIONS */
