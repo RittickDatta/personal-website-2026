@@ -963,12 +963,17 @@ aside {
     font-weight: bold;
     width: 100%;
     color: var(--background-color);
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
 
   main .subtitle {
     font-size: var(--title);
     margin-bottom: 3rem;
+  }
+
+  section#top {
+    background-color: #5483b3;
+    height: 111vh !important;
   }
 
   aside {
@@ -978,6 +983,14 @@ aside {
 
   .footer-nav {
     visibility: hidden;
+  }
+
+  footer {
+    bottom: 80px;
+    .contact {
+      flex-direction: column;
+      height: 48px;
+    }
   }
 
   /* TOP ACTIONS */
