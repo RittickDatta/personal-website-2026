@@ -986,6 +986,10 @@ aside {
     visibility: hidden;
   }
 
+  footer {
+    bottom: 25px;
+  }
+
   /* TOP ACTIONS */
 
   .top-fold-content {
