@@ -980,6 +980,7 @@ aside {
   aside {
     left: -100%;
     width: var(--aside-width-mobile);
+    z-index: 3;
   }
 
   .footer-nav {
