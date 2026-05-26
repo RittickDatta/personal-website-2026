@@ -978,6 +978,7 @@ aside {
   }
 
   aside {
+    top: 0;
     left: -100%;
     width: var(--aside-width-mobile);
     z-index: 3;
