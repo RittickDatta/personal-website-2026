@@ -20,6 +20,7 @@
   --mobile-heading: 32px;
   --heading-tablet: 2rem;
   --sub-heading: 2rem;
+  --sub-heading-small: 1.5rem;
   --title: 1.5rem;
   --body-text: 1rem;
   --skill-detail: 1.5rem;
@@ -327,6 +328,12 @@ main {
   .subtitle {
     font-size: var(--sub-heading);
     font-weight: bold;
+  }
+
+  .subtitle-secondary {
+    font-size: var(--sub-heading-small);
+    font-weight: bold;
+    color: var(--background-color);
   }
 }
 
