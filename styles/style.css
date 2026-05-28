@@ -1025,8 +1025,7 @@ aside {
   }
 
   .bonus {
-    top: 419px;
-    right: -127px;
+    display: none;
   }
 
   /* PITCH */
@@ -1142,5 +1141,9 @@ aside {
   .frontend,
   .backend {
     width: 100%;
+  }
+
+  .bonus {
+    display: none;
   }
 }
