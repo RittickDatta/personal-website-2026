@@ -72,7 +72,7 @@ a {
 
 .showSummary {
   position: fixed;
-  top: 159px;
+  top: 149px;
   right: -46px;
   width: 139px;
   height: 48px;
@@ -97,7 +97,7 @@ a {
 
 .bonus {
   position: fixed;
-  top: 419px;
+  top: 409px;
   right: -137px;
   padding: 9px;
   z-index: 2;
@@ -1022,6 +1022,11 @@ aside {
 
   .top-fold-text {
     width: 100%;
+  }
+
+  .bonus {
+    top: 419px;
+    right: -127px;
   }
 
   /* PITCH */
