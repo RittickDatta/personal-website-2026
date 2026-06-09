@@ -999,6 +999,10 @@ aside {
     height: 113vh !important;
   }
 
+  .top-fold-content-right {
+    padding-bottom: 2rem;
+  }
+
   aside {
     top: 0;
     left: -100%;
